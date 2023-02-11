@@ -46,3 +46,6 @@ Currently, only swap instruction is implemented, however all of the other instru
 
 # Sample data
 There is a testing image and a set of ungarble instruction for you to test the implementation of your swap funtion.
+
+# Prequisities
+You need to have `libsdl2-dev` and `libsdl2-image-dev` installed.
