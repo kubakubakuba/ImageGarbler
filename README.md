@@ -47,8 +47,8 @@ Currently, only swap instruction is implemented, however all of the other instru
 # Sample data
 There is a testing image and a set of ungarble instruction for you to test the implementation of your swap funtion.
 
-Original image: ![original image](https://github.com/kubakubakuba/ImageGarbler/blob/main/data/ungarbled_v1.png)
-Garbled output: ![garbled image](https://github.com/kubakubakuba/ImageGarbler/blob/main/data/garbled_v1.png)
+![original image](https://github.com/kubakubakuba/ImageGarbler/blob/main/data/ungarbled_v1.png)
+![garbled image](https://github.com/kubakubakuba/ImageGarbler/blob/main/data/garbled_v1.png)
 
 # Prequisities
 You need to have `libsdl2-dev` and `libsdl2-image-dev` installed.
