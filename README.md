@@ -3,7 +3,7 @@ Implementation of prg-exam from [CourseWare](https://cw.fel.cvut.cz/wiki/courses
 According to [videos from prof. Faigl](https://www.youtube.com/playlist?list=PLQ5Wg6tJelytTMT0M7bZbkBuXF8JiQV4O).
 
 # Compiling
-Compile the project by running `make`, or manually by running `clang garbler.c save_jpeg.c save_png.c utils.c xwin_sdl.c -o garbler`.
+Compile the project by running `make`, or manually by running `clang garbler.c save_jpeg.c save_png.c utils.c xwin_sdl.c -o garbler`, or with any other compiler of your choice.
 
 # Usage
 The program can be directly used from the console as `./garbler input instructions output [--anim]`,
