@@ -11,23 +11,25 @@ or alternatively, you can use the garbler.py class in following manner:
 
 ```python
 from garbler import Garbler
+
 g = Garbler(10000, 500, 510, verbose=True, c_executable="garbler")
-	instruction_types = {
-		"sw": 1,
-		"cp": 0,
-		"mh": 0,
-		"mv": 0,
-		"rl": 0,
-		"rr": 0,
-		"ic": 0
-	}
-	g.generate_instructions(instruction_types)
+
+instruction_types = {
+    "sw": 1,
+    "cp": 0,
+    "mh": 0,
+    "mv": 0,
+    "rl": 0,
+    "rr": 0,
+    "ic": 0
+}
+g.generate_instructions(instruction_types)
 	
-  g.garble_image("linalg.png", "garbled.png")
-	g.ungarble_image("garbled.png", "ungarbled.jpg")
+g.garble_image("linalg.png", "garbled.png")
+g.ungarble_image("garbled.png", "ungarbled.jpg")
 	
-  g.save_garble("garbled.txt")
-	g.save_ungarble("ungarbled.txt")
+g.save_garble("garbled.txt")
+g.save_ungarble("ungarbled.txt")
 ```
 
 The Garbler class is called with following arguments:
