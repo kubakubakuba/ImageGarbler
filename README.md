@@ -45,5 +45,5 @@ Any time, you can just save the garble and ungarble instructions using `save_gar
 # Functions
 Currently, only swap instruction is implemented, however all of the other instructions (copy, mirror horizontal, mirror vertical, rotate left, rotate right, invert colors) will hopefully be implemented sometimes.
 
-#Sample data
+# Sample data
 There is a testing image and a set of ungarble instruction for you to test the implementation of your swap funtion.
