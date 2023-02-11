@@ -37,7 +37,7 @@ The Garbler class is called with following arguments:
 # Usage #2
 Firstly, `generate_instructions(dictionary)` method needs to be called.
 
-Following, the garbled image, as well as the instructions to its garble and ungarble can be generated with the usage of the compiled project of prg-exam. This is done with the usage of `garble_image(image, garbled, [animate=True])` and `ungarble_image(garbled, ungarbled, [animate=True])`. Then the instructions are saved as 'filename.garble' and 'filename.ungarble'. The path to the executable needs to be specified with `c_executable` argument. 
+Following, the garbled image, as well as the instructions to its garble and ungarble can be generated with the usage of the compiled project of prg-exam. This is done with the usage of `garble_image(image, garbled, [animate=True])` and `ungarble_image(garbled, ungarbled, [animate=True])`. Then the instructions are saved as `filename.garble` and `filename.ungarble`. The path to the executable needs to be specified with `c_executable` argument. 
 
 Any time, you can just save the garble and ungarble instructions using `save_garble(file)` and `save_ungarble(file)` methods. This does not require the executable.
 
