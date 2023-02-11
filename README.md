@@ -38,11 +38,12 @@ The Garbler class is called with following arguments:
 # Usage #2
 Firstly, 'generate_instructions(dictionary)' method needs to be called.
 
-Then, the garbled image, as well as the instructions to its garble and ungarble can be generated with the usage of the compiled project of prg-exam. This is done with the usage of `garble_image(image, garbled, [animate=True])` and `ungarble_image(garbled, ungarbled, [animate=True])`. Then the instructions are saved as 'filename.garble' and 'filename.ungarble'. Then the path to the executable needs to be specified with `c_executable` argument. 
+Following, the garbled image, as well as the instructions to its garble and ungarble can be generated with the usage of the compiled project of prg-exam. This is done with the usage of `garble_image(image, garbled, [animate=True])` and `ungarble_image(garbled, ungarbled, [animate=True])`. Then the instructions are saved as 'filename.garble' and 'filename.ungarble'. The path to the executable needs to be specified with `c_executable` argument. 
 
 Any time, you can just save the garble and ungarble instructions using `save_garble(file)` and `save_ungarble(file)` methods. This does not require the executable.
 
 # Functions
-Currently, only swap instruction is implemented, however all of the other instructions (copy, mirror horizontal, mirror vertical, rotate left, rotate right, invert colors) will be hopefully implemented sometimes.
+Currently, only swap instruction is implemented, however all of the other instructions (copy, mirror horizontal, mirror vertical, rotate left, rotate right, invert colors) will hopefully be implemented sometimes.
 
+#Sample data
 There is a testing image and a set of ungarble instruction for you to test the implementation of your swap funtion.
