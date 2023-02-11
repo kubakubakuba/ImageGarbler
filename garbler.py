@@ -136,20 +136,3 @@ class Garbler:
 			os.system(f"./{self.c_executable} {input_image} {input_image}.ungarble {output_image} --anim")
 		else:
 			os.system(f"./{self.c_executable} {input_image} {input_image}.ungarble {output_image}")
-
-if __name__ == "__main__":
-	g = Garbler(10000, 500, 510, verbose=True, c_executable="garbler")
-	instruction_types = {
-		"sw": 1,
-		"cp": 0,
-		"mh": 0,
-		"mv": 0,
-		"rl": 0,
-		"rr": 0,
-		"ic": 0
-	}
-	g.generate_instructions(instruction_types)
-	g.garble_image("linalg.png", "garbled.png")
-	g.ungarble_image("garbled.png", "ungarbled.jpg")
-	#g.save_garble("garbled.txt")
-	#g.save_ungarble("ungarbled.txt")
